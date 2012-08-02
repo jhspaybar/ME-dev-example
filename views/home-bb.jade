@@ -1,0 +1,13 @@
+extends layout-bb
+
+block content
+  header
+  .modal.hide#errormodal
+    .modal-header#errormodalheader
+      h3 An Error Has Occurred
+    .modal-body.alert.alert-error#errormodalbody
+      p An unknown error has occurred, please try again.
+    .modal-footer#errormodalfooter
+      button.btn.btn-danger(data-dismiss='modal') Close
+  .container
+    section#page-content

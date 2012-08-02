@@ -1,0 +1,47 @@
+<form name="signup-form" class="form-horizontal" id="signupform" action="">
+	<fieldset>
+		<legend>Sign up and start learning</legend>
+		<div class="control-group" id="username-group">
+			<label class="control-label" for="username">Username: </label>
+			<div class="controls">
+				<input type="text" id="username" name="username" class="input-xlarge">
+				<span class="help-inline" id="username-error"></span>
+			</div>
+		</div>
+		<div class="control-group" id="email-group">
+			<label class="control-label" for="email">Email: </label>
+			<div class="controls">
+				<input type="text" id="email" name="email" class="input-xlarge">
+				<span class="help-inline" id="email-error"></span>
+			</div>
+		</div>
+		<div class="control-group" id="password1-group">
+			<label class="control-label" for="password1">Password: </label>
+			<div class="controls">
+				<input type="password" id="password1" name="password1" class="input-xlarge">
+				<span class="help-inline" id="password1-error"></span>
+			</div>
+		</div>
+		<div class="control-group" id="password2-group">
+			<label class="control-label" for="password2">Confirm Password: </label>
+			<div class="controls">
+				<input type="password" id="password2" name="password2" class="input-xlarge">
+				<span class="help-inline" id="password2-error"></span>
+			</div>
+		</div>
+		<div class="form-actions">
+			<button class="btn btn-primary" type="submit" id="submitsignup">Start Learning!</button>
+		</div>
+	</fieldset>
+</form>
+<div class="modal hide" id="submitmodal">
+	<div class="modal-header" id="submitmodalheader">
+		<h3>Submitting Sign Up</h3>
+	</div>
+	<div class="modal-body" id="submitmodalbody">
+		<p>Submitting...</p>
+	</div>
+	<div class="modal-footer" id="submitmodalfooter">
+		<p>Please Wait...</p>
+	</div>
+</div>
